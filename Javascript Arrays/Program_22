@@ -1,0 +1,12 @@
+/*Sort array of objects by string property value in JavaScript */
+
+const students = [
+    { name: "Rahul", age: 30 },
+    { name: "Aman", age: 25 },
+    { name: "Deepak", age: 35 }
+]
+let result = students.sort((a,b)=>
+    a.name.localeCompare(b.name));
+console.log(result);
+
+

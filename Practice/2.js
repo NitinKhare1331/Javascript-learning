@@ -45,3 +45,17 @@
 // promise.then(function success(value){
 //     console.log(value);
 // })
+
+// user = {
+//     userName : "Nitin",
+//     price : 1000,
+
+//     welcomeMessage: function(){
+//         console.log(`${user.userName} ,welcome to website`);
+//         console.log(this);
+//     }
+// }
+// user.welcomeMessage();
+// user.userName = "Sanket"
+// user.welcomeMessage();
+
