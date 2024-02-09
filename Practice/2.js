@@ -59,3 +59,79 @@
 // user.userName = "Sanket"
 // user.welcomeMessage();
 
+
+
+// let x = 'xyz';
+// let a = x.toUpperCase();
+// console.log(a);
+// let y = x.replace('Y','y');
+// console.log(y);
+// y += 'abc';
+// console.log(y);
+
+
+
+
+// function sumAll(...args){
+//     let sum = 0;
+//     for (const arg of args) {
+//             sum += arg;
+//     }
+//     return sum;
+// }
+// const a = sumAll(1,2,3,4);
+// console.log(a);
+
+
+// function a(x){
+//     console.log(x);
+//     function b(){
+//             console.log(x);
+//         }
+//     return b();
+// }
+
+// a(10);
+
+// function vowel_match(city){
+//     let matches = city.match(/[aeiou]/gi);
+//     matches ? matches.length : 'none'
+//     return matches;
+// }
+// console.log(vowel_match('Hardoi'));
+
+
+// let pr1 = Promise.resolve(10);
+// let pr2 = Promise.resolve(100);
+// let pr3 = new   Promise((res,rej) => {
+//     res("yaaaaa")
+// })
+// Promise.all([pr1,pr2,pr3]).then((val) => {
+// console.log(val);
+// })
+
+// let arr = [1,2,[1,2,3,4]]
+// console.log(arr.flat());
+
+// function* gen(){
+
+// }
+// class product {
+//     function name(good morning everyone my name is nitin khare and i have done my schooling form ) {
+
+//     }
+// }
+// function f() {
+//     x = 100;
+//     console.log(this.x);
+// }
+// f();
+
+const obj = {
+    x : 10,
+    y : 20,
+    inner: function () {
+        console.log(this.x,this.y);
+    }
+}
+obj.inner();

@@ -146,28 +146,37 @@
 
 // })
 
-let fileName = ["1.js"]
+// let fileName = ["1.js"]
 
-setTimeout(function downloader(url,cb){
-    url = "File download complete";
-    cb = setTimeout(()=>{
-        console.log(url);
-    },4000)
-},0);
+// setTimeout(function downloader(url,cb){
+//     url = "File download complete";
+//     cb = setTimeout(()=>{
+//         console.log(url);
+//     },4000)
+// },0);
 
-setTimeout(function writeFile(data,cb){
-    file = fileName[0];
-    data = "file saved"
-    cb = setTimeout(()=>{
-        console.log(`${data} and file name is ${file}.`);
-    },3000)
-},3000);
+// setTimeout(function writeFile(data,cb){
+//     file = fileName[0];
+//     data = "file saved"
+//     cb = setTimeout(()=>{
+//         console.log(`${data} and file name is ${file}.`);
+//     },3000)
+// },3000);
 
-setTimeout(function uploadFile(filename, newUrl, cb){
-    newUrl = "www.newUrl.com"
-    filename = fileName[0];
-    cb = setTimeout(()=>{
-        console.log(`File uploaded to new url i.e ${newUrl} and filename is ${filename}.`);
-    },2000)
-},5000);
+// setTimeout(function uploadFile(filename, newUrl, cb){
+//     newUrl = "www.newUrl.com"
+//     filename = fileName[0];
+//     cb = setTimeout(()=>{
+//         console.log(`File uploaded to new url i.e ${newUrl} and filename is ${filename}.`);
+//     },2000)
+// },5000);
+
+let arr = [1,2,3,4,5];
+let x = arr[Symbol.iterator]();
+console.log(x.next());
+console.log(x.next());
+console.log(x.next());
+console.log(x.next());
+console.log(x.next());
+console.log(x.next());
 
